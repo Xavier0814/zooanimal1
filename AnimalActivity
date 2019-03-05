@@ -1,6 +1,10 @@
 public class AnimalActivity
 {
     public static void main() {
+        Animal duck = new Duck();
+        Animal fish = new Fish();
         
+        System.out.println(duck + " " + duck.say());
+        System.out.println(fish + " " + fish.say());
     }
 }
