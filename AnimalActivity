@@ -3,8 +3,10 @@ public class AnimalActivity
     public static void main() {
         Animal duck = new Duck();
         Animal fish = new Fish();
+        Animal seal = new Seal();
         
         System.out.println(duck + " " + duck.say());
         System.out.println(fish + " " + fish.say());
+        System.out.println(seal + " " + seal.say());
     }
 }
