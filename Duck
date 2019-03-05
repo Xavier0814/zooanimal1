@@ -1,5 +1,8 @@
 public class Duck extends Animal{
-  public String say() {
-      return "Quack";
+    public String say() {
+        return "quack";
+    }
+    public String toString() {
+        return "Duck says";
     }
 }
