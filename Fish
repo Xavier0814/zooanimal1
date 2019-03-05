@@ -1,5 +1,8 @@
 public class Fish extends Animal{
-  public String say() {
-      return "Blub";
+    public String say() {
+        return "blub";
+    }
+    public String toString() {
+        return "Fish goes";
     }
 }
