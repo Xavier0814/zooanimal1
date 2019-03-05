@@ -1,0 +1,8 @@
+public class Seal extends Animal{
+    public String say() {
+        return "oww oww oww";
+    }
+    public String toString() {
+        return "Seal barks";
+    }
+}
