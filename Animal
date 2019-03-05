@@ -1,12 +1,6 @@
 public abstract class Animal {
+  public static void main(){
+      
+  }
   public abstract String say();
 }
-
-public class Duck extends Animal{
-  public String say() {return String literal "Quack"}
-}
-
-public class Fish extends Animal{
-  public String say() {return String literal "Blub"}
-}
-  
